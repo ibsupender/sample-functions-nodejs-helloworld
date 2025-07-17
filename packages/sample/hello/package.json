@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Serverless QR generator",
+  "main": "hello.js",
+  "dependencies": {
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {},
+  "type": "module"
+}

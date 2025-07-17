@@ -1,6 +1,0 @@
-{
-  "name": "do-functions",
-  "version": "1.0.0",
-  "main": "getHello.js",
-  "type": "module"
-}
