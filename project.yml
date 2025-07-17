@@ -3,3 +3,4 @@ packages:
     actions:
       - name: hello
         runtime: nodejs:18
+        timeout: 60000
