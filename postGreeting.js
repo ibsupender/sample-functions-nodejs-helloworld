@@ -1,10 +1,5 @@
-/**
- * Sample POST API
- */
-exports.main = async (args) => {
-  const name = args.name || "Guest";
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ message: `Hello, ${name} from POST API!` }),
-  };
+export default async (req, context) => {
+  return new Response(JSON.stringify({ message: "Hello from POST!" }), {
+    headers: { "Content-Type": "application/json" },
+  });
 };
